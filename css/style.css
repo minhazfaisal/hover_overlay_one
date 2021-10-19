@@ -23,12 +23,13 @@
     text-align: center;
     padding: 25px;
     background: rgb(138 28 43 / 68%);
-    pointer-events: none;
     transition: .3s;
 }
+
 .thumbnail-c:hover {
     background: rgb(130 109 112 / 68%);
 }
+
 .thumbnail-c::before {
     content: '';
     display: block;
@@ -43,12 +44,14 @@
     background-repeat: no-repeat;
     transition: .3s;
 }
+
 .thumbnail-c:hover::before {
     top: 25px;
     left: 25px;
     right: 25px;
     bottom: 25px;
 }
+
 .time {
     position: relative;
     text-transform: uppercase;
